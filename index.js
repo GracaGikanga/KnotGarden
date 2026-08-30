@@ -15,4 +15,3 @@
     // 4. Redirect the user (opens in a new tab)
     window.open(whatsappUrl, '_blank');
   });
-</script>
