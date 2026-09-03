@@ -8,7 +8,6 @@ html {
     flex-wrap: nowrap;
     gap:8px;
     background-color: #2d531a;
-    justify-content: space-between;
     align-items: center;
 
     width: 100vw;
