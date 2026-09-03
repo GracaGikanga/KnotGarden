@@ -16,10 +16,15 @@ html {
     margin-left:-0.95%;
 }
 
+#logo-png{
+    width: 10em;
+    height:10em;
+    margin-right:auto;
+}
 
-#container div {
-    font-size:20px;
-    
+#logo-png2{
+   
+    margin-left:auto;
 }
 
 #home-para {
@@ -62,16 +67,7 @@ html {
     color:green
 }
 
-#logo-png{
-    width: 10em;
-    height:10em;
-    margin-right:auto;
-}
 
-#logo-png2{
-   
-    margin-left:auto;
-}
 
 
 #line{
