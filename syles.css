@@ -4,6 +4,7 @@ html {
 
 #container {
     display: flex;
+    justify-content: flex-end;
     flex-wrap: nowrap;
     gap:8px;
     background-color: #2d531a;
