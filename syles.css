@@ -65,12 +65,9 @@ html {
 #logo-png{
     width: 10em;
     height:10em;
-    
+     margin-left:auto;
 }
-#logo-png2{
-    margin-left:auto;
-    
-}
+
 
 #line{
     margin-top:12%;
