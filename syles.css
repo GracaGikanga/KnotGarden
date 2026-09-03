@@ -3,7 +3,9 @@ html {
 }
 
 #container {
-    display: flex-start;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
     gap:8px;
     background-color: #2d531a;
     justify-content: space-between;
