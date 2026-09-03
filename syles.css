@@ -15,14 +15,13 @@ html {
 }
 
 .nav-links {
-    display: flex;
+    display: flex-end;
     align-items: center;
     margin-top:2em;
     
 }
 
 .nav-links div {
-    padding: 10px 17px;
     font-size:20px;
 }
 
