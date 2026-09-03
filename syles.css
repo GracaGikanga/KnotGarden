@@ -10,7 +10,7 @@ html {
     background-color: #2d531a;
     align-items: center;
 
-    width: 100vw;
+    width: 100%;
     height:10vh;
     margin-top:-1em;
     margin-left:-0.95%;
@@ -22,7 +22,7 @@ html {
     margin-right:auto;
 }
 
-#logo-png2{
+.logo-png2{
    
     margin-left:auto;
 }
