@@ -4,6 +4,7 @@ html {
 
 #container {
     display: flex;
+    gap:8px;
     background-color: #2d531a;
     justify-content: space-between;
     align-items: center;
@@ -14,13 +15,6 @@ html {
     margin-left:-0.95%;
 }
 
-.nav-links {
-    display: flex;
-    gap:8px;
-    align-items: center;
-    margin-top:2em;
-    
-}
 
 .nav-links div {
     font-size:20px;
@@ -67,8 +61,8 @@ html {
 }
 
 #logo-png{
-    width: 15px;
-    height:15px;
+    width: 15em;
+    height:15em;
 }
 
 #line{
