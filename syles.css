@@ -8,15 +8,16 @@ html {
     justify-content: space-between;
     align-items: center;
     width: 100vw;
-    height: 8vh;
-    padding: 0 20px;
-    margin-top:-0.95%;
+    height: 9.3vh;
+    padding: 0.7em 20em;
+    margin-top:-1em;
     margin-left:-0.95%;
 }
 
 .nav-links {
     display: flex;
     align-items: center;
+    margin-top:2em;
     
 }
 
@@ -65,8 +66,10 @@ html {
     color:green
 }
 
-#logo{
-    margin-top:3%;
+#logo-png{
+    padding-top:1em;
+    width: 15em;
+    height:10em;
 }
 
 #line{
