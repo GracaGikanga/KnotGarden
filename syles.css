@@ -4,7 +4,6 @@ html {
 
 #container {
     display: flex;
-    justify-content: flex-start;
     flex-wrap: nowrap;
     gap:8px;
     background-color: #2d531a;
@@ -65,6 +64,10 @@ html {
 #logo-png{
     width: 15em;
     height:15em;
+    
+}
+#logo-png2{
+    margin-left:auto;
 }
 
 #line{
