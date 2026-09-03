@@ -3,13 +3,14 @@ html {
 }
 
 #container {
-    display: flex;
+    display: flex-start;
     gap:8px;
     background-color: #2d531a;
     justify-content: space-between;
     align-items: center;
+
     width: 100vw;
-    height: 9.3vh;
+    height:8vh;
     padding: 0.7em 20em;
     margin-top:-1em;
     margin-left:-0.95%;
