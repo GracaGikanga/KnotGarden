@@ -32,6 +32,11 @@ html {
     text-decoration:none;
 }
 
+#container a {
+  color: inherit;           /* Takes the white color from #container */
+  text-decoration: none;   /* Removes the default underline */
+}
+
 /* 3. Ensure the logo image fits inside the 10vh header */
 #logo-png {
     max-height: 80%;
