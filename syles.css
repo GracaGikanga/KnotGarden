@@ -6,7 +6,7 @@ html {
     display: flex;
     flex-wrap: nowrap;
     align-items: center; /* Vertically aligns logo and links inside the header */
-    gap: 16px;
+    gap: 15px;
     background-color: #2d531a;
     width: 100vw;
     height: 10vh;
@@ -17,6 +17,10 @@ html {
 /* 1. Target the logo container to push everything else to the right */
 #container > div:first-child {
     margin-right: auto; 
+}
+
+#container > div:last-child {
+    margin-right: 20px; /* Adjust this number to add more or less space from the edge */
 }
 
 /* 2. Style the nav item containers */
