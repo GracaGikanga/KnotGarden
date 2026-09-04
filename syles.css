@@ -11,6 +11,7 @@ html {
     width: 100%; /* Changed from 100vw to 100% */
     height: 10vh;
     box-sizing: border-box; /* Ensures padding doesn't cause overflow */
+    
 }
 
 /* 1. Target the logo container to push everything else to the right */
@@ -27,6 +28,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-decoration:none;
 }
 
 /* 3. Ensure the logo image fits inside the 10vh header */
