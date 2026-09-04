@@ -20,7 +20,7 @@ html {
 }
 
 #container > div:last-child {
-    margin-right: 20px; /* Adjust this number to add more or less space from the edge */
+    margin-right: 30px; /* Adjust this number to add more or less space from the edge */
 }
 
 /* 2. Style the nav item containers */
