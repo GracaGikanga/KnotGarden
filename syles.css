@@ -15,11 +15,11 @@ html {
     margin-left:-0.95%;
 }
 
-#container > div:first-child {
+#container > div {
     display:flex;
     justify-content: flex-start;
     align-items: center;
-    margin-left:auto;
+    
    
 }
 
@@ -29,6 +29,9 @@ html {
     margin-right:auto;
 }
 
+#logo-png2{
+    margin-right:auto;
+}
 
 
 #home-para {
