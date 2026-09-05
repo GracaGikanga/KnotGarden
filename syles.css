@@ -178,8 +178,7 @@ html {
 }
 @media (max-width: 768px), (orientation: landscape) and (max-width: 950px) {
   #img-cont {
-    display: flex;
-    flex-direction: row;
+    flex-direction:column;
     margin-left: -2%;
   }
 }
