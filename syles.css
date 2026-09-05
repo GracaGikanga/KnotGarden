@@ -11,6 +11,13 @@ html {
     width: 100%; /* Changed from 100vw to 100% */
     height: 10vh;
     box-sizing: border-box; /* Ensures padding doesn't cause overflow */
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Ensures nav stays above other elements */
+    height: 60px; /* Set an explicit height for the navbar */
    
     
 }
@@ -45,7 +52,7 @@ html {
 }
 #logo-png{
     width: 10em;
-    height:10em;
+    height:8em;
     margin-right:auto;
 }
 
@@ -144,60 +151,61 @@ background-color: #eeeeee;
 
 
 
-/*Gallery section*/
-#gallery-cont{
-    background-color:#6c6c6a;
-    margin-top: 4%;
-    width:100%;
-    height:auto;
-    min-height:20vh;
-    box-sizing: border-box;
-    border-radius:1.5%;
-    
-}
-
-
-#gallery-txt{
-    color:#e0e0de;
-    text-align: center;
-    font-size:2em;
-    margin-bottom:2;
-
-}
-
-#gallery-line{
-    width:50%;
-    margin-left:auto;
-    margin-right:auto;
-    border-top: 2px;
-}
-
-#gallery-imgs{
+/* Gallery section */
+#gallery-cont {
     background-color: #6c6c6a;
-    width:100%;
-    height:auto;
-    min-height:100vh;
+    margin-top: 4%;
+    width: 100%;
+    height: auto;
+    min-height: 20vh;
     box-sizing: border-box;
-    padding-bottom:20%;
-    border-radius:1.5%;
+    border-radius: 1.5em;
+    padding-bottom: 40px;
+}
 
+#gallery-txt {
+    color: #e0e0de;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px; /* Added missing unit */
+}
+
+#gallery-line {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    border-top: 2px solid #e0e0de; /* Added color so the line actually shows */
+}
+
+#gallery-imgs {
+    background-color: #6c6c6a;
+    width: 100%;
+    box-sizing: border-box;
     margin-top: 5%;
-    display:grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto, auto auto auto;
-    overflow: hidden;
-    grid-gap:5%;
-    margin-left:1%;
-    margin-right:auto;
-
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 20px; /* Clean, uniform spacing */
+    padding: 0 20px; /* Prevents images from sticking to the edges */
 }
 
-.gals{
-   padding:44%;
-   border: 4px solid #e8ccd8;
-   border-radius:20%;
+/* Let wrapper divs take up the full space of their grid cell */
+#gallery-imgs div {
+    width: 100%;
+    height: auto;
+   
 }
 
+/* Make images scale smoothly inside the 3 columns */
+.gals {
+    border: 4px solid #e8ccd8;
+    border-radius: 1em;
+    width: 100%;       /* Stretches to fit the column width */
+    height: 250px;     /* Gives all images a uniform height */
+    object-fit: cover; /* Prevents images from looking squished */
+    box-sizing: border-box;
+    padding: 10px;
+}
 /*FAQs*/
 #FAQs{
     padding-bottom:20%;
