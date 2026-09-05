@@ -137,7 +137,11 @@ html {
     margin-left: 1.5%;
   
 }
-
+@media (max-width: 932px) {
+  #home-para2{
+    min-height:40vh;
+  }
+}
 #home-para3{
     background-color: #eeeeee;   
     width: 50vw;
