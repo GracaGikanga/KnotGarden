@@ -157,6 +157,11 @@ background-color: #eeeeee;
     flex-direction:column;
 }
 }
+@media (max-width:768px){
+#container2{
+    flex-direction:column;
+}
+}
 
 #img-cont{
     display:flex;
