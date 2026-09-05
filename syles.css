@@ -136,13 +136,16 @@ background-color: #eeeeee;
     display:flex;
     flex-direction:flex-start;
     margin-left:-2%;
+    
    
 
 }
 
 .lawn-img{
-    border:solid 10px #2d531a;;
+    border:solid 5px #2d531a;;
     border-radius:7%;
+    padding:10px;
+    
 }
 
 .line{
