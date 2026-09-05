@@ -163,6 +163,11 @@ background-color: #eeeeee;
     flex-direction:column;
 }
 }
+@media (orientation: landscape) and (max-width: 950px){
+    #container2{
+        flex-direction:column;
+    }
+}
 
 #img-cont{
     display:flex;
