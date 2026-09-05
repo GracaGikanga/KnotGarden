@@ -45,6 +45,26 @@ html {
    font-size: 20px;
 }
 
+/* Base link styling with a transparent border to prevent layout shifts */
+#container a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 6px 12px;
+  border: 2px solid transparent;
+  border-radius: 4px;
+  display: inline-block;
+  transition: border-color 0.2s ease;
+}
+
+/* Dynamically highlight the active navigation link based on the targeted section */
+#container:has(~ #homee:target) a[href="#homee"],
+#container:has(~ #servicess:target) a[href="#servicess"],
+#container:has(~ #galleryy:target) a[href="#galleryy"],
+#container:has(~ #FAQss:target) a[href="#FAQss"],
+#container:has(~ #Contactss:target) a[href="#Contactss"] {
+  border-color: #e8ccd8;
+}
+
 /* 3. Ensure the logo image fits inside the 10vh header */
 #logo-png {
     max-height: 80%;
@@ -130,6 +150,12 @@ background-color: #eeeeee;
     display:flex;
     margin-top:5%;
     
+}
+
+@media (min-width:600px){
+#container2{
+    flex-direction:column;
+}
 }
 
 #img-cont{
@@ -360,4 +386,8 @@ background-color: #eeeeee;
 #quick-l{
     margin-top:2em;
     margin-bottom:-2em;
+}
+
+@media (min-width:600px){
+
 }
