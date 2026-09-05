@@ -129,46 +129,45 @@ html {
 }
 
 #home-para2{
-    background-color: #eeeeee;
-    width:50vw;
-    height:70vh;
-    border-radius:2%;
-    margin-left:1.5%;
+   background-color: #eeeeee;
+    width: 50vw;
+    height: auto;       /* Allows container to grow with content */
+    min-height: 70vh;   /* Keeps a minimum height on large screens */
+    border-radius: 2%;
+    margin-left: 1.5%;
   
 }
 
 #home-para3{
-background-color: #eeeeee;   
-    width:50vw;
-    height:70vh;
-    border-radius:2%;
-    margin-left:1.5%;
+    background-color: #eeeeee;   
+    width: 50vw;
+    height: auto;       /* Allows container to grow with content */
+    min-height: 70vh;   /* Keeps a minimum height on large screens */
+    border-radius: 2%;
+    margin-left: 1.5%;  
   
 }
 
 #container2{
-    display:flex;
-    margin-top:5%;
-    height:auto;
+   display: flex;
+    margin-top: 5%;
+    height: auto;
     
 }
 
-@media (max-width:480px){
-#container2{
-    flex-direction:column;
-}
-}
-@media (max-width:768px){
-#container2{
-    flex-direction:column;
-}
-}
-@media (orientation: landscape) and (max-width: 950px){
-    #container2{
-        flex-direction:column;
+/* When stacked in columns, make boxes take full width and stack cleanly */
+@media (max-width: 480px), (max-width: 768px), (orientation: landscape) and (max-width: 950px) {
+    #container2 {
+        flex-direction: column;
+    }
+    
+    #home-para2, #home-para3 {
+        width: 95vw;     /* Expands boxes to fit mobile/landscape screens */
+        margin-bottom: 20px; /* Adds spacing between the stacked boxes */
+        margin-left: auto;
+        margin-right: auto;
     }
 }
-
 #img-cont{
     display:flex;
 
