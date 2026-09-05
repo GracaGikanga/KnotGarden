@@ -170,8 +170,14 @@ html {
 }
 #img-cont{
     display:flex;
-
     margin-left:-2%;
+}
+@media (max-width: 480px), (max-width: 768px), (orientation: landscape) and (max-width: 950px){
+#img-cont{
+    display:flex;
+    flex-direction:row;
+    margin-left:-2%;
+}
 }
 
 .lawn-img{
