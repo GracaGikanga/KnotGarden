@@ -192,10 +192,8 @@ background-color: #eeeeee;
 #gallery-cont {
     padding-top:2%;
     background-color: #6c6c6a;
-    margin-top: 4%;
     width: 100%;
     height: auto;
-    min-height: 20vh;
     box-sizing: border-box;
     border-radius: 1.5em;
     padding-bottom: 40px;
