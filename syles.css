@@ -190,6 +190,7 @@ background-color: #eeeeee;
 
 /* Gallery section */
 #gallery-cont {
+    padding-top:2%;
     background-color: #6c6c6a;
     margin-top: 4%;
     width: 100%;
@@ -243,6 +244,7 @@ background-color: #eeeeee;
     box-sizing: border-box;
     padding: 10px;
 }
+
 /*FAQs*/
 #FAQs{
     padding-bottom:20%;
@@ -399,6 +401,3 @@ background-color: #eeeeee;
     margin-bottom:-2em;
 }
 
-@media (min-width:600px){
-
-}
