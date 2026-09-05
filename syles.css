@@ -152,7 +152,7 @@ background-color: #eeeeee;
     
 }
 
-@media (min-width:600px){
+@media (max-width:480px){
 #container2{
     flex-direction:column;
 }
