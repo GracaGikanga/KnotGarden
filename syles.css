@@ -149,6 +149,7 @@ background-color: #eeeeee;
 #container2{
     display:flex;
     margin-top:5%;
+    height:auto;
     
 }
 
