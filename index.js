@@ -1,7 +1,6 @@
 //Button A
 <button id="btnA">Chat on WhatsApp</button>
 
-<script>
   document.getElementById('btnA').addEventListener('click', function() {
     // 1. Phone number must include country code without '+', spaces, or dashes
     const phoneNumber = "254704856274"; 
