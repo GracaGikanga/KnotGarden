@@ -1,15 +1,13 @@
-//Button A
-
-  document.getElementById('btnA').addEventListener('click', function() {
-    // 1. Phone number must include country code without '+', spaces, or dashes
-    const phoneNumber = "254704856274"; 
+document.addEventListener('DOMContentLoaded', function() {
+    const btnA = document.getElementById('btnA');
     
-    // 2. Optional pre-filled message (encoded for safety)
-    const defaultMessage = encodeURIComponent("Hello! I'm reaching out from your website.");
-    
-    // 3. Construct the deep link
-    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${defaultMessage}`;
-    
-    // 4. Redirect the user (opens in a new tab)
-    window.open(whatsappUrl, '_blank');
-  });
+    if (btnA) {
+        btnA.addEventListener('click', function() {
+            const phoneNumber = "254704856274"; 
+            const defaultMessage = encodeURIComponent("Hello! I'm reaching out from your website.");
+            const whatsappUrl = `https://wa.me/${phoneNumber}?text=${defaultMessage}`;
+            
+            window.open(whatsappUrl, '_blank');
+        });
+    }
+});
