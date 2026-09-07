@@ -139,7 +139,11 @@ html {
 }
 @media (max-width: 932px) {
   #home-para2{
-    min-height:40vh;
+    #img-cont{
+        display:flex;
+        flex-direction:column;
+    }
+    height:auto;
   }
 }
 #home-para3{
