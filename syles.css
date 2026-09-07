@@ -306,6 +306,7 @@ html {
     background-color: #341f28;
     border-radius:2em;
     width:100%;
+    height:auto;
 }
 
 #Contactss{
@@ -322,7 +323,9 @@ html {
     width:20em;
     height:20em;
     
+    
  }
+
 
  #cont-grid{
     display: flex;
@@ -334,6 +337,7 @@ html {
     padding-bottom:2em;
     
  }
+
 
 /*Whatsapp button*/
  #btnA{
@@ -407,3 +411,8 @@ html {
     margin-bottom:-2em;
 }
 
+#quicks{
+    display:flex;
+    flex-direction:row;
+    gap:20em;
+}
