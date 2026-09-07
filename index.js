@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     document.getElementById('btnA').addEventListener('click', function () {
-        var message = encodeURIComponent('I am reaching out from your website');
+        var message = encodeURIComponent('I am reaching out from your website,');
         window.location.href = 'https://wa.me/254704856247?text=' + message;
     });
 });
