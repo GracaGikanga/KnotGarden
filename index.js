@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 document.addEventListener('DOMContentLoaded', function () {
     document.getElementById('btnC').addEventListener('click', function () {
-        var message = encodeURIComponent('I am reaching out from your website');
+        var message = encodeURIComponent('I am reaching out from your website,');
         window.location.href = 'sms:+254704856247?body=' + message;
     });
 });
