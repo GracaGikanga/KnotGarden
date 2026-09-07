@@ -416,3 +416,6 @@ html {
     flex-direction:row;
     gap:20em;
 }
+#call{
+    margin-left:20px;
+}
