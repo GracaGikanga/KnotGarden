@@ -6,7 +6,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
 document.addEventListener('DOMContentLoaded', function () {
     document.getElementById('btnC').addEventListener('click', function () {
-        var phone = this.getAttribute('data-phone');
-        window.location.href = 'sms:' + phone;
+        window.location.href = 'sms:+254704856247';
     });
 });
